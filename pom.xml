@@ -23,7 +23,8 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
-      <scope>test</scope>
+      <!--<scope>test</scope>-->
+      <!--只能是src/java/test目录下的java文件能使用@Test注解，此处注释-->
     </dependency>
   </dependencies>
 
