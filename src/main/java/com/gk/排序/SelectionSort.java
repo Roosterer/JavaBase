@@ -10,7 +10,7 @@ public class SelectionSort {
 
     /**
      * 选择排序：取arr[i]与后面的元素挨个比较，遇到比arr[i]小的元素则调换位置，一次遍历结束arr[i]是i~n中最小的元素
-     *
+     * 重复此步骤
      */
     @Test
     public void sort(){
